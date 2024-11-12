@@ -33,10 +33,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>Ik heb de website van Paradiso gekozen om na te maken voor de eindopdracht.</summary>
 
-<img src="readme-images/home.png" alt="Homepagina website Paradiso">
-
-<img src="readme-images/archief.png" alt="Geschiedenis van paradiso"> 
-
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
   https://www.paradiso.nl/ 
