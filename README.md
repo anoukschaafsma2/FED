@@ -10,41 +10,45 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
+
 ## Jij
 
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Anouk Schaafsma
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  hier je startniveau: Rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  hier je focus: Surface plane
  
 </details>
-
-
-
 
 
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Ik heb de website van Paradiso gekozen om na te maken voor de eindopdracht.</summary>
+
+<img src="readme-images/home.png" alt="Homepagina website Paradiso">
+
+<img src="readme-images/archief.png" alt="Geschiedenis van paradiso"> 
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.paradiso.nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Homepagina van de website
+<img src="readme-images/home.png" width="375px" alt="Homepagina website Paradiso">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Archief pagina van de website
+<img src="readme-images/archief.png" width="375px" alt="Geschiedenis van paradiso"> 
+
  
 </details>
 
