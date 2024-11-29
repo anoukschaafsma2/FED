@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white; /* standaardkleur */
+    padding: 1em;
+    line-height: auto;
+  }
+  
+h1{
+    font-size: 4em;
+}
+
+  /* Specifieke stijl voor pagina's met class "oranje" */
+  .oranje {
+    background-color: orange;
+  }
+
+img{
+    max-width: 100%; 
+    height: auto;    
+    display: block;
+}
+
+
+.carousel
+{
+
+}
