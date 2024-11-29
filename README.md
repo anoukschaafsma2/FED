@@ -20,7 +20,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Anouk Schaafsma
 
   #### Je startniveau:
-  hier je startniveau: Rood
+  hier je startniveau: Blauw
 
   #### Je focus:
   hier je focus: Surface plane
