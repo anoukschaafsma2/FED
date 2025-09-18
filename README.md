@@ -7,10 +7,6 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
 
-
-
-
-
 ## Jij
 
 <details open>
@@ -23,9 +19,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier je startniveau: Blauw
 
   #### Je focus:
-  hier je focus: Surface plane
+  hier je focus: Responsive
  
 </details>
+
+
+
 
 
 ## Je website
@@ -33,17 +32,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>Ik heb de website van Paradiso gekozen om na te maken voor de eindopdracht.</summary>
 
+<img src="readme-images/homescreen.png" alt="Homepagina website Paradiso">
+
+<img src="readme-images/about.png" alt="About pagina van paradiso"> 
+
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
   https://www.paradiso.nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina van de website
-<img src="readme-images/home.png" width="375px" alt="Homepagina website Paradiso">
+<img src="readme-images/homepagina.png" width="375px" alt="Homepagina website Paradiso">
 
   #### Screenshot(s) van de tweede pagina (small screen):
 Archief pagina van de website
-<img src="readme-images/archief.png" width="375px" alt="Geschiedenis van paradiso"> 
+<img src="readme-images/fedarchief.png" width="375px" alt="Archief van het programma van Paradiso"> 
 
  
 </details>
@@ -57,6 +60,7 @@ Archief pagina van de website
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validater. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
 
 </details>
 
@@ -68,13 +72,13 @@ Archief pagina van de website
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homescreen.png" width="375px" alt="breakdown van de hele home pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu.png" width="375px" alt="breakdown van het hamburgermenu uitgeklapt">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/program.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -94,10 +98,10 @@ Archief pagina van de website
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Daphne         | Leon               | Tobias       | Anouk            |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | foto's         | forms uitwerken    | hover effect | font inladen     |
+  | font downloaden| navigatie bar      | in een UL    | carousel maken   |
   | ...            | ...                | ...          | ...              |
 
 

@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>Ik heb de website van Paradiso gekozen om na te maken voor de eindopdracht.</summary>
 
-<img src="readme-images/home.png" alt="Homepagina website Paradiso">
+<img src="readme-images/homescreen.png" alt="Homepagina website Paradiso">
 
 <img src="readme-images/about.png" alt="About pagina van paradiso"> 
 
@@ -46,7 +46,7 @@ Homepagina van de website
 
   #### Screenshot(s) van de tweede pagina (small screen):
 Archief pagina van de website
-<img src="readme-images/aboutpagina.jpeg" width="375px" alt="Geschiedenis van paradiso"> 
+<img src="readme-images/fedarchief.png" width="375px" alt="Archief van het programma van Paradiso"> 
 
  
 </details>
@@ -72,13 +72,13 @@ Archief pagina van de website
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdownschetshome.png" width="375px" alt="breakdown van de hele home pagina">
+  <img src="readme-images/homescreen.png" width="375px" alt="breakdown van de hele home pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/breakdownschetsmenu.png" width="375px" alt="breakdown van het hamburgermenu uitgeklapt">
+  <img src="readme-images/menu.png" width="375px" alt="breakdown van het hamburgermenu uitgeklapt">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/breakdownschetsabout.pngs" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/program.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -98,10 +98,10 @@ Archief pagina van de website
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Daphne         | Leon               | Tobias       | Anouk            |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | foto's         | forms uitwerken    | en ik dit    | font inladen     |
+  | font downloaden| navigatie bar      | nog een punt | carousel maken   |
   | ...            | ...                | ...          | ...              |
 
 
