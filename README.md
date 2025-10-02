@@ -131,12 +131,18 @@ Archief pagina van de website
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Daphne         | Leon               | student 3   
+  | ---            | ---                | ---         
+  | carousel fixen | Hoe werk ik met    | carousel werkend   
+  | werken met     | een SVG Logo.      | menu verbergen in hambuger menu
+  | bepaalde foto’s| verschillende 
+    waar text op staat styling voor
+                      headers en andere 
+                      elementen, hoe 
+                      opstellen in style 
+                      sheet zonder classes 
+                      en heel veel 
+                      uitzonderingen maken.    
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
