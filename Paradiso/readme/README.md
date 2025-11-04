@@ -108,10 +108,9 @@ Archief pagina van de website
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - alle divs eruit halen, net als de classes en articles (tenzij je een goede reden hebt om ze te gerbuiken)
+  - voor de carousel de link op de h2 zetten
+  - bij alle images een alt text gebruiken
 
 </details>
 
@@ -131,20 +130,29 @@ Archief pagina van de website
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Daphne         | Leon               | student 3   
+  | ---            | ---                | ---         
+  | carousel fixen | Hoe werk ik met    | carousel werkend   
+  | werken met     | een SVG Logo.      | menu verbergen in hambuger menu
+  | bepaalde foto’s| verschillende 
+    waar text op staat styling voor
+                      headers en andere 
+                      elementen, hoe 
+                      opstellen in style 
+                      sheet zonder classes 
+                      en heel veel 
+                      uitzonderingen maken.  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - meer proces maken, css vooruitgang was te weinig
+  - kijken of ik 1 nav tag ga gebruiken met veel ul, of meerdere
+  nav tags ga gebruiken
+  - meerdere css bestanden gebruiken
+  - ik kan in de css :root gebruik maken van primitives (standaard kleuren) en die vervolgens gebruiken als font kleur of achtergrond kleur
+  - darkmode kan met @media (prefers-color-scheme:dark)
+ 
 
 </details>
 
@@ -159,6 +167,11 @@ Archief pagina van de website
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - ik probeer zo min mogelijk divs te gebruiken
+  - ik heb de kleuren en fonts in primitives gezet en die bij andere tags aangewezen.
+  - h tags op een logische manier gebruikt, werd eerst niet gedaan
+  - ol/ul items gebruikt voor lijsten.
+
 
 </details>
 

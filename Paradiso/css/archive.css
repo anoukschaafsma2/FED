@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Paradiso;
+  src: url(../font/139b8a6406b1b53a-s.p.woff2);
+}
+
+
+
+body {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-family: var(--font-family);
+  }
+
+  main > ul  {
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    anchor-name: --carousel;
+  
+    > .carousel__slide {
+      scroll-snap-align: center;
+    }
+  }

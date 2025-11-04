@@ -1,17 +1,25 @@
-// Selecteer de elementen
-const hamMenu = document.querySelector(".ham-menu"); 
-const offScreenMenu = document.querySelector(".off-screen-menu"); 
-const closeMenu = document.getElementById('close-menu'); 
-const body = document.body;
+let deButton = document.querySelector("menu li:nth-of-type(1) button");
 
-hamMenu.addEventListener("click", () => {
-  hamMenu.classList.toggle("active"); 
-  offScreenMenu.classList.toggle("active"); 
-  body.classList.toggle("no-scroll"); // Voeg hier de scroll-beperkingen toe
+let menu = document.querySelector("header nav:nth-of-type(1)");
+
+
+const ul = document.querySelector('main > ul:nth-of-type(1)');
+const btnLeft = ul.querySelector('li:first-child > button');
+const btnRight = ul.querySelector('li:last-child > button');
+
+const scrollAmount = 400; // pixels per klik
+
+deButton.addEventListener("click", toggleButton);
+
+function toggleButton() {
+  deButton.classList.toggle("is-open"); // animates hamburger
+  menu.classList.toggle("is-open");     // slides menu in/out
+}
+
+btnLeft.addEventListener('click', () => {
+  ul.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
 });
 
-closeMenu.addEventListener("click", () => {
-  hamMenu.classList.remove("active"); 
-  offScreenMenu.classList.remove("active"); 
-  body.classList.remove("no-scroll"); // Verwijder de scroll-beperkingen als het menu gesloten wordt
+btnRight.addEventListener('click', () => {
+  ul.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 });

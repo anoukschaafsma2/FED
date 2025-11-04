@@ -1,263 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Paradiso</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paradiso</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<body class="blauw">
-  <header>
+  <body>
+    <header>
+      <!-- child 1 vd header -->
+      <h1>Paradiso</h1> 
 
-    <div class="off-screen-menu">
-      <ul>
-        <img id="close-menu" src="images/kruis.png" alt="kruis icoon">
-        <!-- Hoofdmenu -->
-        <section class="topnav">
-          <li>
-            <h2><a href="index.html">Programma</a></h2>
-          </li>
-          <li>
-            <h2>Nieuws</h2>
-          </li>
-          <li>
-            <h2>Mijn tickets</h2>
-          </li>
-          <li>
-            <h2>Bezoek</h2>
-          </li>
-        </section>
+      <!-- child 2 vd header -->
+      <menu>
+        <li>
+          <button aria-label="toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </li>
 
-        <!-- Submenu -->
-        <div id="secondnav">
-          <li><a href="about.html">Over ons</a></li>
-          <li>Lidmaatschap</li>
-          <li>Archief</li>
-          <li>Webshop</li>
-          <li>Steun ons</li>
-          <li>Werken bij Paradiso</li>
-          <li>Contact & Partners</li>
-        </div>
+        <li>
+          <button>Zoeken</button>
+        </li>
+      </menu>
 
-        <!-- Evenementen -->
-        <div class="evenementen">
-          <li>
-            <img src="images/bassline.webp" alt="Logo Bassline"> Bassline
-          </li>
-          <li>
-            <img src="images/ClubParadiso.webp" alt="Logo Club Paradiso"> Club Paradiso
-          </li>
-          <li>
-            <img src="images/indiestad.webp" alt="Logo Indiestad"> Indiestad
-          </li>
-          <li>
-            <img src="images/kosmos.jpg" alt="Logo Kosmos"> Kosmos
-          </li>
-          <li>
-            <img src="images/sugarmountain.webp" alt="Logo Sugar Mountain"> Sugar Mountain
-          </li>
-          <li>
-            <img src="images/suprsonic.webp" alt="Logo Super-Sonic Jazz"> Super-Sonic Jazz
-          </li>
-          <li>
-            <img src="images/tickettropic.webp" alt="Logo Tickets to the Tropics"> Tickets to the Tropics
-          </li>
-        </div>
+      <!-- child 3 vd header -->
+      <nav> 
+        <!--child 1 vd nav-->
+        <ul>
+          <li><a href="index.html">Programma</a></li>
+          <li><a href="#">Nieuws</a></li>
+          <li><a href="#">Mijn tickets</a></li>
+          <li><a href="#">Bezoek</a></li>
+        </ul>
 
-        <!-- Social media -->
-        <div class="socials">
-          <li><img src="images/tiktok.png" alt="TikTok logo"></li>
-          <li><img src="images/instalogo.jpg" alt="Instagram logo"></li>
-          <li><img src="images/spotify.jpg" alt="Spotify logo"></li>
-          <li><img src="images/youtube.png" alt="YouTube logo"></li>
-        </div>
+        <ul>
+          <!--child 2 vd nav-->
+          <li><a href="#">Lidmaatschap</a></li>
+          <li><a href="archive.html">Archief</a></li>
+          <li><a href="#">Webshop</a></li>
+          <li><a href="#">Steun ons</a></li>
+          <li><a href="#">Werken bij Paradiso</a></li>
+          <li><a href="#">Contact & Partners</a></li>
+        </ul>
+
+        <!-- child 3 vd nav-->
+        <ul>
+          <li>
+            <img src="images/bassline.webp" alt="Logo Bassline" /> Bassline
+          </li>
+          <li>
+            <img src="images/ClubParadiso.webp" alt="Logo Club Paradiso" /> Club
+            Paradiso
+          </li>
+          <li>
+            <img src="images/indiestad.webp" alt="Logo Indiestad" /> Indiestad
+          </li>
+          <li><img src="images/kosmos.jpg" alt="Logo Kosmos" /> Kosmos</li>
+          <li>
+            <img src="images/sugarmountain.webp" alt="Logo Sugar Mountain" />
+            Sugar Mountain
+          </li>
+          <li>
+            <img src="images/suprsonic.webp" alt="Logo Super-Sonic Jazz" />
+            Super-Sonic Jazz
+          </li>
+          <li>
+            <img
+              src="images/tickettropic.webp"
+              alt="Logo Tickets to the Tropics"
+            />
+            Tickets to the Tropics
+          </li>
+        </ul>
+
+        <!-- Social media hoeft niet, miss als ik tijd over heb-->
+        <!--child 4 vd nav-->
+        <!-- <ul> 
+            <li><img src="images/tiktok.png" alt="TikTok logo"></li>
+            <li><img src="images/instalogo.jpg" alt="Instagram logo"></li>
+            <li><img src="images/spotify.jpg" alt="Spotify logo"></li>
+            <li><img src="images/youtube.png" alt="YouTube logo"></li>
+          </ul> -->
 
         <!-- Sponsoren -->
-        <div class="sponsoren">
-          <li><img src="images/gemeenteadam.png" alt="Logo Gemeente Amsterdam"></li>
-          <li><img src="images/heineken.png" alt="Heineken logo"></li>
-          <li><img src="images/europeseunie.png" alt="Co-funded by the European Union"></li>
-        </div>
+        <!--child 5 vd nav-->
+        <!-- <ul> 
+            <li><img src="images/gemeenteadam.png" alt="Logo Gemeente Amsterdam"></li>
+            <li><img src="images/heineken.png" alt="Heineken logo"></li>
+            <li><img src="images/europeseunie.png" alt="Co-funded by the European Union"></li>
+          </ul> -->
+      </nav>
+
+      <!-- child 4 vd header -->
+      <nav>
+        <ul>
+          <li hidden>
+            <a href="#">Programma</a>
+          </li>
+          <li>
+            <a href="#">My Paradiso</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- child 5 vd header -->
+      <p>
+        56 years of concerts, club nights and
+        <a href="https://www.paradiso.nl/en/subbrand/kosmos/2048821">culture</a>
+      </p>
+    </header>
+
+    <main>
+        <ul>
+        <!--  child 1 -->
+        <li><button aria-label="Scroll left">←</button></li>
+
+        <li>
+          <a href="#">
+            <img src="images/thewombats.jpeg" alt="The Wombats confirmed"/>
+
+            <h2>The Wombats</h2>
+
+            <p>In Paradiso</p>
+            <p>29 March</p>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="images/070shake.webp"alt="070 Shake: The Petrichor Tour confirmed"/>
+
+            <h2>070 Shake</h2>
+
+            <p>In Paradiso</p>
+            <p>29 March</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="images/Michelle.jpg" alt="Michelle concert confirmed"/>
+
+            <h2>MICHELLE</h2>
+            
+            <p>In Bitterzoet</p>
+            <p>29 March</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="images/AmberRun.jpg" alt="Amber Run the band confirmed"/>
+
+            <h2>Amber Run</h2>
+            
+            <p>In Paradiso</p>
+            <p>12 April</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="images/odetari.jpeg" alt="Odetari confirmed"/>
+
+            <h2>Odetari</h2>
+            
+            <p>In Tolhuistuin</p>
+            <p>23 February</p>
+          </a>
+        </li>
+
+        <li><button aria-label="Scroll right">→</button></li>
+
       </ul>
-    </div>
 
-    <p class="myparadiso">My Paradiso</p>
+      <h2>Programma</h2>
+      <ul>
+        <!--  child 2 -->
+        <a href="#">
+          <li>
+            <img
+              src="images/blondshell.jpg" alt="Afbeelding van Artiest Blondshell"/>
+            <h3>Blondshell + Francis of Delirium</h3>
+            <p>In Tolhuistuin</p>
+            <p>Aanvang 19:30</p>
+          </li>
+        </a>
 
+        <a href="#">
+          <li>
+            <img
+              src="images/clipping.png" alt="Afbeelding van artiesten trio .clipping"/>
+            <h3>clipping. + Cooling</h3>
+            <p>In Paradiso</p>
+            <p>Aanvang 19:30</p>
+          </li>
+        </a>
 
-    <h1>Paradiso</h1>
+        <a href="#">
+          <li>
+            <img
+              src="images/annaternheim.jpg" alt="Afbeelding van artiest Anna Terheim"/>
+            <h3>Anna Ternheim</h3>
+            <p>In Bitterzoet</p>
+            <p>Aanvang 20:30</p>
+          </li>
+        </a>
+      </ul>
 
-    <p id="culture">56 years of concerts, club nights and <a
-        href="https://www.paradiso.nl/en/subbrand/kosmos/2048821">culture</a></p>
-  </header>
+      <button type="button">Op datum</button>
+      <button type="button">Op maand</button>
+      <button type="button">Op locatie</button>
+      <button type="button">Op type</button>
 
-  <main>
+      <ul>
+        <li>
+          <h3>Su 8 Dec</h3>
+        </li>
 
-    <div class="slideshow">
-      <article class="event">
-        <h2>The Wombats</h2>
-        <div class="image-container">
-          <img src="images/thewombats.jpeg" alt="The Wombats confirmed">
-        </div>
-        <p>In Paradiso</p>
-        <p>29 March</p>
-      </article>
-      <article class="event">
-        <h2>070 Shake</h2>
-        <div class="image-container">
-          <img src="images/070shake.webp" alt="070 Shake: The Petrichor Tour confirmed">
-        </div>
-        <p>In Paradiso</p>
-        <p>29 March</p>
-      </article>
-      <article class="event">
-        <h2>MICHELLE</h2>
-        <div class="image-container">
-          <img src="images/Michelle.jpg" alt="Michelle concert confirmed">
-        </div>
-        <p>In Bitterzoet</p>
-        <p>29 March</p>
-      </article>
-      <article class="event">
-        <h2>Amber Run</h2>
-        <div class="image-container">
-          <img src="images/AmberRun.jpg" alt="Amber Run the band confirmed">
-        </div>
-        <p>In Paradiso</p>
-        <p>12 April</p>
-      </article>
-      <article class="event">
-        <h2>Odetari</h2>
-        <div class="image-container">
-          <img src="images/odetari.jpeg" alt="Odetari confirmed">
-        </div>
-        <p>In Tolhuistuin</p>
-        <p>23 February</p>
-      </article>
-    </div>
+        <li>
+          <a href="#">
+            <h4>Pokey LaFarge + The Tailspins</h4>
+            <p>Infectious swings and blues</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-    <h2 id="programma">Programma</h2>
+        <li>
+          <a href="#">
+            <h4>Melissa Lopes + Markjunglez</h4>
+            <p>Dutch Pop artist from Rotterdam</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-    <img src="images/blondshell.jpg" alt="Afbeelding van Artiest Blondshell" ><h3>Blondshell + Francis of Delirium</h3><p>In Tolhuistuin</p><p>Aanvang 19:30</p>
+        <li>
+          <a href="#">
+            <h4>INEZ</h4>
+            <p>Dutch-Moroccan singer unites cultures / Tolhuistuin</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-    <img src="images/clipping.png" alt="Afbeelding van artiesten trio .clipping"><h3>clipping. + Cooling</h3><p>In Paradiso</p><p>Aanvang 19:30</p>
+        <li>
+          <h3>Mo 9 Dec</h3>
+        </li>
 
-    <img src="images/annaternheim.jpg" alt="Afbeelding van artiest Anna Terheim"><h3>Anna Ternheim</h3><p>In Bitterzoet</p><p>Aanvang 20:30</p></a>
+        <li>
+          <a href="#">
+            <h4>Kanii + 9lives</h4>
+            <p>
+              Jersey club with alternative R&B and pop melodies / Tolhuistuin
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <button type="button">By date</button>
-      <button type="button">By month</button>
-      <button type="button">By location</button>
-      <button type="button">By type</button>
+        <li>
+          <a href="#">
+            <h4>
+              Knits and Tits: a celebration of craftmanship, art, music, and
+              sexiness
+            </h4>
+            <p>A Fusion of Sensuality, Craft, and Empowerment</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h3>Su 8 Dec</h3>
-      <h4>Pokey LaFarge + The Tailspins</h4>
-      <p>Infectious swings and blues</p>
+        <li>
+          <a href="#">
+            <h4>Hackle and Buckshot</h4>
+            <p>
+              Rappers from California inspired by trap and Cloud rap /
+              Bitterzoet
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Melissa Lopes + Markjunglez</h4>
-      <p>Dutch Pop artist from Rotterdam</p>
+        <li>
+          <a href="#">
+            <h3>Tu 10 Dec</h3>
+            <h4>MARO + Lumi</h4>
+            <p>Singer from Portugal creating Pop and Folk music</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>INEZ</h4>
-      <p>Dutch-Moroccan singer unites cultures / Tolhuistuin</p>
+        <li>
+          <h3>We 11 Dec</h3>
+        </li>
 
-      <h3>Mo 9 Dec</h3>
-      <h4>Kanii + 9lives</h4>
-      <p>Jersey club with alternative R&B and pop melodies / Tolhuistuin</p>
+        <li>
+          <a href="#">
+            <h4>Sylvie Kreusch + FINDLAY</h4>
+            <p>Art Pop from Antwerp</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Knits and Tits: a celebration of craftmanship, art, music, and sexiness</h4>
-      <p>A Fusion of Sensuality, Craft, and Empowerment</p>
+        <li>
+          <a href="#">
+            <h4>Naima Bock</h4>
+            <p>Alternative Indie rooted in Folk</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Hackle and Buckshot</h4>
-      <p>Rappers from California inspired by trap and Cloud rap / Bitterzoet</p>
+        <li>
+          <a href="#">
+            <h4>Sarah Julia + Kaya</h4>
+            <p>Dutch sister duo bringing harmonious Folk Pop</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h3>Tu 10 Dec</h3>
-      <h4>MARO + Lumi</h4>
-      <p>Singer from Portugal creating Pop and Folk music</p>
+        <li>
+          <h3>Th 12 Dec</h3>
+        </li>
 
+        <li>
+          <a href="#">
+            <h4>MEROL + Luna Morgenstern</h4>
+            <p>Catchy Dutch Pop music by femme fatale</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h3>We 11 Dec</h3>
-      <h4>Sylvie Kreusch + FINDLAY</h4>
-      <p>Art Pop from Antwerp</p>
+        <li>
+          <a href="#">
+            <h4>Melle</h4>
+            <p>
+              Singer-songwriter and multi-instrumentalist creates indie-pop and
+              folk music
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Naima Bock</h4>
-      <p>Alternative Indie rooted in Folk</p>
+        <li>
+          <a href="#">
+            <h4>Grupo Pilon</h4>
+            <p>Funaná band with western influences</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Sarah Julia + Kaya </h4>
-      <p>Dutch sister duo bringing harmonious Folk Pop</p>
+        <li>
+          <h3>Fr 13 Dec</h3>
+        </li>
 
-      <h3>Th 12 Dec</h3>
-      <h4>MEROL + Luna Morgenstern</h4>
-      <p>Catchy Dutch Pop music by femme fatale</p>
+        <li>
+          <a href="#">
+            <h4>MEROL + Luna Morgenstern</h4>
+            <p>Catchy Dutch Pop music by femme fatale</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Melle </h4>
-      <p>Singer-songwriter and multi-instrumentalist creates indie-pop and folk music</p>
+        <li>
+          <a href="#">
+            <h4>Orange Skyline + Panda Noir</h4>
+            <p>Catchy Indie Pop music hailing from Groningen</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Grupo Pilon</h4>
-      <p>Funaná band with western influences</p>
+        <li>
+          <a href="#">
+            <h4>Remy van Kesteren</h4>
+            <p>
+              Classical harpist brings together modern electronic and
+              experimental influences / Zonnehuis
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h3>Fr 13 Dec</h3>
-      <h4>MEROL + Luna Morgenstern</h4>
-      <p>Catchy Dutch Pop music by femme fatale</p>
+        <li>
+          <a href="#">
+            <h4>Sean Kuti & The Egypt 80</h4>
+            <p>Crown Prince of Afrobeat / Tolhuistuin</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Orange Skyline + Panda Noir</h4>
-      <p>Catchy Indie Pop music hailing from Groningen</p>
+        <li>
+          <a href="#">
+            <h4>Voltage (DJ JAH birthday bash special)</h4>
+            <p>Melting pot of Caribbean flavours</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Remy van Kesteren</h4>
-      <p>Classical harpist brings together modern electronic and experimental influences / Zonnehuis</p>
+        <li>
+          <a href="#">
+            <h4>Antídoto</h4>
+            <p>
+              A night full of club and dance music from all corners of the
+              world/ Parallel
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Sean Kuti & The Egypt 80</h4>
-      <p>Crown Prince of Afrobeat / Tolhuistuin</p>
+        <li>
+          <h3>Sa 14 Dec</h3>
+        </li>
 
-      <h4>Voltage (DJ JAH birthday bash special)</h4>
-      <p>Melting pot of Caribbean flavours</p>
+        <li>
+          <a href="#">
+            <h4>Porcelain id</h4>
+            <p>Melancholic indie folk</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Antídoto</h4>
-      <p>A night full of club and dance music from all corners of the world / Parallel</p>
+        <li>
+          <a href="#">
+            <h4>Hang Youth + BigBobbyBitch</h4>
+            <p>Activist punk band from Amsterdam</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h3>Sa 14 Dec</h3>
-      <h4>Porcelain id</h4>
-      <p>Melancholic indie folk</p>
+        <li>
+          <a href="#">
+            <h4>Ciao Lucifer + Mungo Bungo</h4>
+            <p>Indie duo creates razor-sharp pop songs / Bitterzoet</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Hang Youth + BigBobbyBitch</h4>
-      <p>Activist punk band from Amsterdam</p>
+        <li>
+          <a href="#">
+            <h4>Kaya Imani</h4>
+            <p>Promising R&B talent / Tolhuistuin</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Ciao Lucifer + Mungo Bungo</h4>
-      <p>Indie duo creates razor-sharp pop songs / Bitterzoet</p>
+        <li>
+          <a href="#">
+            <h4>Kleine Crack & Slagter</h4>
+            <p>Rapper and producer from Belgium bring the energy</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Kaya Imani</h4>
-      <p>Promising R&B talent / Tolhuistuin</p>
+        <li>
+          <a href="#">
+            <h4>DJ HEARTSTRING</h4>
+            <p>CLub night with DJ HEARTSTRING, Lucky Done Gone and Malou</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>Kleine Crack & Slagter</h4>
-      <p>Rapper and producer from Belgium bring the energy</p>
+        <li>
+          <a href="#">
+            <h4>Woza</h4>
+            <p>A night full of vibrant afro-electronic music / Parallel</p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>DJ HEARTSTRING</h4>
-      <p>CLub night with DJ HEARTSTRING, Lucky Done Gone and Malou</p>
+        <li>
+          <h3>Su 15 Dec</h3>
+        </li>
 
-      <h4>Woza</h4>
-      <p>A night full of vibrant afro-electronic music / Parallel</p>
+        <li>
+          <a href="#">
+            <h4>Lisanne Dijkstra - 14:00 uur</h4>
+            <p>
+              Dutch influencer and pop artist performs for the first time live
+              at Paradiso / Tolhuistuin
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h3>Su 15 Dec</h3>
-      <h4>Lisanne Dijkstra - 14:00 uur</h4>
-      <p>Dutch influencer and pop artist performs for the first time live at Paradiso / Tolhuistuin</p>
+        <li>
+          <a href="#">
+            <h4>
+              30 years TOUTPARTOUT (middag) met o.a. Briqueville + Joe Gideon
+            </h4>
+            <p>
+              Festival with alternative music celebrating the aniversary of
+              booking agency TOUTPARTOUT
+            </p>
+            <p>1930</p>
+          </a>
+        </li>
 
-      <h4>30 years TOUTPARTOUT (middag) met o.a. Briqueville + Joe Gideon</h4>
-      <p>Festival with alternative music celebrating the aniversary of booking agency TOUTPARTOUT</p>
+        <li>
+          <a href="#">
+            <h4>
+              30 years TOUTPARTOUT (middag) met o.a. DIIV, King Hanna + Tsar B +
+              Briqueville + Joe Gideon
+            </h4>
+            <p>
+              Festival with alternative music celebrating the aniversary of
+              booking agency TOUTPARTOUT
+            </p>
+            <p>1900</p>
+          </a>
+        </li>
 
-      <h4>30 years TOUTPARTOUT (middag) met o.a. DIIV, King Hanna + Tsar B + Briqueville + Joe Gideon</h4>
-      <p>Festival with alternative music celebrating the aniversary of booking agency TOUTPARTOUT</p>
+        <li>
+          <h3>Mo 16 Dec</h3>
+        </li>
 
-      <h3>Mo 16 Dec</h3>
-      <h4>Christmas a GoGo</h4>
-      <p>Christmas Extravaganza with loads of live music</p>
+        <li>
+          <a href="#">
+            <h4>Christmas a GoGo</h4>
+            <p>Christmas Extravaganza with loads of live music</p>
+            <p>1900</p>
+          </a>
+        </li>
 
-      <h4>Christmas Queens</h4>
-      <p>Christmas drag show with The House of Kittylicious</p>
-    </article>
-  </main>
-  <footer>
-    <script src="java.js"></script>
-  </footer>
-
-</body>
-
+        <li>
+          <a href="#">
+            <h4>Christmas Queens</h4>
+            <p>Christmas drag show with The House of Kittylicious</p>
+            <p>1900</p>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <script src="java.js"></script>
+    </footer>
+  </body>
 </html>
