@@ -1,0 +1,107 @@
+body {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-family: var(--font-family);
+
+    padding: 3em;
+  }
+
+header button span {
+    background-color: var(--black-color);
+  }
+
+h2 {
+  font-size: 2em;
+  }
+
+a {
+    color: var(--black-color);
+    position: relative; 
+  }
+
+a::after {  
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;                   
+  width: 0%;
+  height: 2px;                
+  background-color: var(--black-color);          
+  transition: width 0.3s ease;     
+} 
+
+a:hover::after {
+   width: 100%;
+}
+
+ /* --- CAROUSEL CONTAINER --- */
+/* bron https://chrome.dev/carousel-configurator/ */
+main > ul:nth-of-type(1) {
+  display: flex;
+
+  position: relative;
+  overflow-x: auto;                   /*  horizontaal scrollen AAN  */
+  scroll-snap-type: x mandatory;     /*  elke slide 'snapt' in positie  */
+  scroll-behavior: smooth;          /*   soepel scrollen  */
+
+  gap: .5em;                   
+  margin: 0;
+  padding: 0;   
+
+  /* anchor positioning  */
+  anchor-name: --carousel;
+}
+
+
+main > ul:nth-of-type(1) > li {
+  flex-shrink: 0;  
+  scroll-snap-align: center;
+}
+
+main > ul:nth-of-type(1)::-webkit-scrollbar {
+  display: none;                    /* scrollbar verbergen (Chrome/Safari) */
+}
+
+
+/* Tekst op afbeelding */
+main > ul:nth-of-type(1) > li a h2,
+main > ul:nth-of-type(1) > li a p {
+  position: absolute;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
+  color: var(--white-color);
+  margin: 0px 10px 5px 10px;  
+}
+
+
+main > ul:nth-of-type(1) > li a h2 {
+  bottom: 2.5em;
+  font-size: 1.5em;
+}
+
+main > ul:nth-of-type(1) > li a p {
+  color: var(--gray-color);
+}
+
+main > ul:nth-of-type(1) > li a p:first-of-type {
+  bottom: 2em;
+}
+
+main > ul:nth-of-type(1) > li a p:last-of-type {
+  bottom: 0.5em; 
+}
+
+main > ul:nth-of-type(1) > li a {
+  position: relative;
+  display: block;
+}
+
+  hr {
+    margin-right: 10px;
+    border: none;
+    height: .6px;
+    background-color: var(--black-color);
+  }

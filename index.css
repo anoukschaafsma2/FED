@@ -1,0 +1,202 @@
+/* algemene styling */
+ul li a{
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* BODY */
+html.no-scroll{
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--primary-color);
+  padding: 1em 2em ;
+  color: var(--white-color);
+}
+
+h1, h2, h3, h4{
+  color: var(--white-color);
+}
+
+main > h2 {
+  letter-spacing: -7px;
+  font-size: 7.3em;
+}
+
+@media (width > 450px) {
+  h1,h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+p{
+  color: var(--soft-color);
+}
+
+
+/* HEADER */
+header p{
+  color: var(--soft-color);
+}
+
+header a  {
+  text-decoration: underline;
+  color: var(--white-color);
+}
+
+header > nav:nth-of-type(2) a{
+  color: var(--white-color);
+}
+
+header button span {
+  background-color: var(--white-color);
+}
+
+/* MAIN */
+
+/* BAH */
+@media (max-width: 768px) {
+  .img {
+    order: 1;
+    flex-direction: column;
+  }
+}
+
+/* --- CAROUSEL CONTAINER --- */
+/* bron https://chrome.dev/carousel-configurator/ */
+main > ul:nth-of-type(1) {
+  display: flex;
+
+  position: relative;
+  overflow-x: auto;                   /*  horizontaal scrollen AAN  */
+  scroll-snap-type: x mandatory;     /*  elke slide 'snapt' in positie  */
+  scroll-behavior: smooth;          /*   soepel scrollen  */
+
+  gap: 0;                   
+  margin: 0;
+  padding: 0;   
+
+  /* anchor positioning  */
+  anchor-name: --carousel;
+}
+
+
+
+main > ul:nth-of-type(1) > li {
+  flex-shrink: 0;  
+  scroll-snap-align: center;
+}
+
+main > ul:nth-of-type(1)::-webkit-scrollbar {
+  display: none;                    /* scrollbar verbergen (Chrome/Safari) */
+}
+
+
+
+/* Tekst op afbeelding */
+main > ul:nth-of-type(1) > li a h2,
+main > ul:nth-of-type(1) > li a p {
+  position: absolute;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
+  color: var(--white-color);
+  margin: 0px 10px 5px 10px;  
+}
+
+
+main > ul:nth-of-type(1) > li a h2 {
+  bottom: 2.5em;
+  font-size: 1.5em;
+}
+
+
+main > ul:nth-of-type(1) > li a p:first-of-type {
+  bottom: 2em;
+}
+
+main > ul:nth-of-type(1) > li a p:last-of-type {
+  bottom: 0.5em; 
+}
+
+/* tweede carousel */
+
+main > ul:nth-of-type(2) {
+  display: flex;
+
+  overflow-x: auto;                 /*  horizontaal scrollen AAN*/
+  scroll-snap-type: x mandatory;    /*  elke slide 'snapt' in positie */
+  scroll-behavior: smooth;         /*  soepel scrollen  */
+
+  gap: .5em;                   
+
+  padding-left: 10px;
+
+  /* anchor positiong */
+   anchor-name: --carousel;
+}
+
+main > ul:nth-of-type(2) { 
+  &::scroll-button(main > ul:nth-of-type(2)) {
+    position: absolute;
+    position-anchor: --carousel;
+    position-visibility: always;
+    font-family: "Material Symbols Outlined";
+  }
+}
+
+main > ul:nth-of-type(2) > li {
+  flex-shrink: 0;  
+  scroll-snap-align: center;
+}
+
+main > ul:nth-of-type(2)::-webkit-scrollbar {
+  display: none;      /* scrollbar verbergen (Chrome/Safari)  */
+}
+
+
+/* Tekst op afbeelding */
+main > ul:nth-of-type(2) > li a h2,
+main > ul:nth-of-type(2) > li a p {
+  position: absolute;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
+  color: var(--white-color);
+  margin: 0px 10px 5px 10px;  
+}
+
+
+main > ul:nth-of-type(2) > li a h2 {
+  bottom: 3.5em;
+  font-size: 1.5em;
+}
+
+
+main > ul:nth-of-type(2) > li a p:first-of-type {
+  bottom: 2em;
+}
+
+main > ul:nth-of-type(2) > li a p:last-of-type {
+  bottom: 0.5em; 
+}
+
+main > menu {
+  display: flex;
+}
+
+hr {
+  margin-right: 10px;
+  border: none;
+  height: .6px;
+  background-color: var(--soft-color);
+
+}
+
