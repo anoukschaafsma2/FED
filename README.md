@@ -239,8 +239,8 @@ Archief pagina van de website
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  2. https://chrome.dev/carousel-configurator/
+     
 
 </details>
