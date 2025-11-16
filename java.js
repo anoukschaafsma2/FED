@@ -14,6 +14,7 @@ deButton.addEventListener("click", toggleButton);
 function toggleButton() {
   deButton.classList.toggle("is-open"); // animates hamburger
   menu.classList.toggle("is-open");     // slides menu in/out
+  document.documentElement.classList.toggle("no-scroll");
 }
 
 btnLeft.addEventListener('click', () => {
@@ -23,3 +24,4 @@ btnLeft.addEventListener('click', () => {
 btnRight.addEventListener('click', () => {
   ul.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 });
+

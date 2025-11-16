@@ -1,15 +1,42 @@
 /* algemene styling */
-ul a li {
+ul li a{
   position: relative;
   overflow: hidden;
 }
 
+
 /* BODY */
+html.no-scroll{
+  overflow: hidden;
+}
 
 body {
   background-color: var(--primary-color);
-
+  padding: 1em 2em ;
+  color: var(--white-color);
 }
+
+h1, h2, h3, h4{
+  color: var(--white-color);
+}
+
+h2 {
+  letter-spacing: -7px;
+  font-size: 7.3em;
+}
+
+@media (width > 450px) {
+  h1,h2 {
+
+    display: flex;
+    justify-content: center;
+  }
+}
+
+p{
+  color: var(--soft-color);
+}
+
 
 /* HEADER */
 header p{
@@ -21,13 +48,15 @@ header a  {
   color: var(--white-color);
 }
 
-/* MAIN */
+header > nav:nth-of-type(2) a{
+  color: var(--white-color);
+}
 
-/* img {
-  max-width: 390px;
-  width: calc(100% - 4em); 
-  box-sizing: border-box;
-} */
+header button span {
+  background-color: var(--white-color);
+}
+
+/* MAIN */
 
 /* BAH */
 @media (max-width: 768px) {
@@ -38,76 +67,52 @@ header a  {
 }
 
 /* --- CAROUSEL CONTAINER --- */
+/* bron https://chrome.dev/carousel-configurator/ */
 main > ul:nth-of-type(1) {
   display: flex;
 
-
-  overflow-x: auto;                 /* horizontaal scrollen AAN */
-  scroll-snap-type: x mandatory;    /* elke slide 'snapt' in positie */
-  scroll-behavior: smooth;          /* soepel scrollen */
-
-  padding-inline: 2em;
+  position: relative;
+  overflow-x: auto;                   /*  horizontaal scrollen AAN  */
+  scroll-snap-type: x mandatory;     /*  elke slide 'snapt' in positie  */
+  scroll-behavior: smooth;          /*   soepel scrollen  */
 
   gap: 0;                   
   margin: 0;
-  padding: 0;               
+  padding: 0;   
 
-  width: 100vh;
-
+  /* anchor positioning  */
+  anchor-name: --carousel;
 }
 
+
+
 main > ul:nth-of-type(1) > li {
-  flex: 0 0 100%;     /* Elke slide = 100% van de viewportbreedte */
-  scroll-snap-align: start;
-  position: relative;
+  flex-shrink: 0;  
+  scroll-snap-align: center;
 }
 
 main > ul:nth-of-type(1)::-webkit-scrollbar {
   display: none;                    /* scrollbar verbergen (Chrome/Safari) */
 }
 
-/* --- CAROUSEL ITEMS --- */
-main > ul:nth-of-type(1) > li:not(:has(button)) {
-  flex: 0 0 100%;                   /* elke slide neemt 100% breedte */
-  scroll-snap-align: center;        /* slide centreert bij stoppen */
-  position: relative;
 
-  overflow: hidden;
-}
-
-/* --- AFBEELDING + OVERLAY --- */
-main > ul:nth-of-type(1) > li {
-  background: linear-gradient(30%);
-}
-
-main > ul:nth-of-type(1) > li a {
-  display: block;
-  position: relative;
-  text-decoration: none;
-  color: inherit;
-}
-
-main > ul:nth-of-type(1) > li a img {
-  width: 50vh;
-  height: 60vh;
-  object-fit: cover;
-  display: block;
-}
 
 /* Tekst op afbeelding */
 main > ul:nth-of-type(1) > li a h2,
 main > ul:nth-of-type(1) > li a p {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
   color: var(--white-color);
-  margin: 0;
+  margin: 0px 10px 5px 10px;  
 }
 
 
 main > ul:nth-of-type(1) > li a h2 {
-  bottom: 3.5em;
+  bottom: 2.5em;
   font-size: 1.5em;
 }
 
@@ -117,74 +122,82 @@ main > ul:nth-of-type(1) > li a p:first-of-type {
 }
 
 main > ul:nth-of-type(1) > li a p:last-of-type {
-  bottom: 0.5em;
+  bottom: 0.5em; 
 }
 
-/* --- PIJLEN --- */
-main > ul:nth-of-type(1) > li:has(button) {
+/* tweede carousel */
+
+main > ul:nth-of-type(2) {
+  display: flex;
+
+  overflow-x: auto;                 /*  horizontaal scrollen AAN*/
+  scroll-snap-type: x mandatory;    /*  elke slide 'snapt' in positie */
+  scroll-behavior: smooth;         /*  soepel scrollen  */
+
+  gap: .5em;                   
+
+  padding-left: 10px;
+
+  /* anchor positiong */
+   anchor-name: --carousel;
+}
+
+main > ul:nth-of-type(2) { 
+  &::scroll-button(main > ul:nth-of-type(2)) {
+    position: absolute;
+    position-anchor: --carousel;
+    position-visibility: always;
+    font-family: "Material Symbols Outlined";
+  }
+}
+
+main > ul:nth-of-type(2) > li {
+  flex-shrink: 0;  
+  scroll-snap-align: center;
+}
+
+main > ul:nth-of-type(2)::-webkit-scrollbar {
+  display: none;      /* scrollbar verbergen (Chrome/Safari)  */
+}
+
+
+/* Tekst op afbeelding */
+main > ul:nth-of-type(2) > li a h2,
+main > ul:nth-of-type(2) > li a p {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
 
-main > ul:nth-of-type(1) > li:first-child {
-  left: 1em;
-}
-
-main > ul:nth-of-type(1) > li:last-child {
-  right: 1em;
-}
-
-main > ul:nth-of-type(1) > li:has(button) > button {
-  background-color: var(--white-color);
-  border: none;
-  border-radius: 50%;
-  width: 3em;
-  height: 3em;
-  font-size: 1.2em;
-  color: var(--black-color);
-  cursor: pointer;
-  box-shadow: 0 0 6px var(--black-color)
-  transition: background 0.2s ease;
-}
-
-main > ul:nth-of-type(1) > li:has(button) > button:hover {
-  background-color: var(--black-color);
-  color: var(--white-color);
-}
-
-main > ul:nth-of-type(1) > li:has(button) > button:focus{
-  border-color: var(--focus-state:);
-}
-
-
-main ul:nth-of-type(2) a li h3,
-main ul:nth-of-type(2) a li p {
-  position: absolute;
   left: 0;
-  right: 0;
-  color: white;
-  text-align: center;
-  z-index: 2;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  transform: none;
+  text-align: left;
+
+  color: var(--white-color);
+  margin: 0px 10px 5px 10px;  
+}
+
+
+main > ul:nth-of-type(2) > li a h2 {
+  bottom: 3.5em;
+  font-size: 1.5em;
+}
+
+
+main > ul:nth-of-type(2) > li a p:first-of-type {
+  bottom: 2em;
+}
+
+main > ul:nth-of-type(2) > li a p:last-of-type {
+  bottom: 0.5em; 
+}
+
+main > menu {
+  display: flex;
+}
+
+hr {
+  margin-right: 10px;
+  border: none;
+  height: .6px;
+  background-color: var(--soft-color);
 
 }
 
-main ul:nth-of-type(2) a li h3,
-main ul:nth-of-type(2) a li p::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 1;
-}
-
-main ul:nth-of-type(2) a li h3,
-main ul:nth-of-type(2) a li p::after {
-  top: 50%;
-  transform: translateY(-50%);
-}
-  
