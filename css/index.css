@@ -20,14 +20,13 @@ h1, h2, h3, h4{
   color: var(--white-color);
 }
 
-h2 {
+main > h2 {
   letter-spacing: -7px;
   font-size: 7.3em;
 }
 
 @media (width > 450px) {
   h1,h2 {
-
     display: flex;
     justify-content: center;
   }
