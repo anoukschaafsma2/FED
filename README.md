@@ -1,4 +1,32 @@
 # Procesverslag
+
+## Introductie
+
+Procesverslag van Anouk Schaafsma, start-niveau: blauw en mijn focus: responsive.
+
+Mijn gekozen website is Paradiso, ik heb deze website gekozen omdat ik het een mooi ontwerp vind en graag wilde leren hoe ik deze na kon maken. Op een beginners niveau. Hieronder zijn de afbeeldingen van de pagina's die ik heb nagemaakt.
+
+<img src="readme-images/homescreen.png" alt="Homepagina website Paradiso met hun opkomende programma in een carousel, hun programma voor vandaag en opkomend programma in een lijst">
+
+<img src="readme-images/fedarchief.png" alt="Pagina met alle evenementen die bij Paradiso zich hebben plaatsgevonden"> 
+
+Link naar de website van Paradiso: https://www.paradiso.nl/ 
+
+## Breakdownschetsen
+
+Voor de breakdownschetsen heb ik mijn gekozen pagina's uitgewerkt, de homepagina en de archief pagina.
+
+<img src="readme-images/homepagina.png" width="375px" alt="Homepagina van de Paradiso website">
+
+<img src="readme-images/fedarchief.png" width="375px" alt="Archief pagina van de Paradiso website"> 
+
+
+
+## Toegankelijkheidstest
+
+Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validater. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
+
+# Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
