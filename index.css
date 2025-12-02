@@ -5,19 +5,9 @@ ul li a{
 }
 
 
-/* BODY */
-html.no-scroll{
-  overflow: hidden;
-}
-
 body {
-  background-color: var(--primary-color);
-  padding: 1em 2em ;
-  color: var(--white-color);
-}
-
-h1, h2, h3, h4{
-  color: var(--white-color);
+  background-color: var(--background-color-primary);
+  color: var(--text-color-primary);
 }
 
 main > h2 {
@@ -25,43 +15,37 @@ main > h2 {
   font-size: 7.3em;
 }
 
-@media (width > 450px) {
-  h1,h2 {
+@media (min-width: 630px) {
+  h1, h2 {
     display: flex;
     justify-content: center;
   }
 }
 
-p{
-  color: var(--soft-color);
-}
-
-
 /* HEADER */
 header p{
-  color: var(--soft-color);
+  color: var(--subtext-color-light);
 }
 
-header a  {
+header > p > a  {
   text-decoration: underline;
-  color: var(--white-color);
+  color: var(--text-color-primary);
 }
 
 header > nav:nth-of-type(2) a{
-  color: var(--white-color);
+  color: var(--text-color-primary);
 }
 
 header button span {
   background-color: var(--white-color);
 }
 
-/* MAIN */
 
-/* BAH */
-@media (max-width: 768px) {
+/* MAIN */
+@media (min-width: 768px) {
   .img {
-    order: 1;
-    flex-direction: column;
+    order: 0;         
+    flex-direction: column;   
   }
 }
 
@@ -95,32 +79,33 @@ main > ul:nth-of-type(1)::-webkit-scrollbar {
 }
 
 
-
 /* Tekst op afbeelding */
-main > ul:nth-of-type(1) > li a h2,
-main > ul:nth-of-type(1) > li a p {
+main > ul:nth-of-type(1) > li h3,
+main > ul:nth-of-type(1) > li p {
   position: absolute;
+
+  z-index: 10;
 
   left: 0;
   transform: none;
   text-align: left;
 
-  color: var(--white-color);
+  /* color: var(--text-color-primary); */
   margin: 0px 10px 5px 10px;  
 }
 
 
-main > ul:nth-of-type(1) > li a h2 {
+main > ul:nth-of-type(1) > li h3 {
   bottom: 2.5em;
   font-size: 1.5em;
 }
 
 
-main > ul:nth-of-type(1) > li a p:first-of-type {
+main > ul:nth-of-type(1) > li p:first-of-type {
   bottom: 2em;
 }
 
-main > ul:nth-of-type(1) > li a p:last-of-type {
+main > ul:nth-of-type(1) > li p:last-of-type {
   bottom: 0.5em; 
 }
 
@@ -141,14 +126,6 @@ main > ul:nth-of-type(2) {
    anchor-name: --carousel;
 }
 
-main > ul:nth-of-type(2) { 
-  &::scroll-button(main > ul:nth-of-type(2)) {
-    position: absolute;
-    position-anchor: --carousel;
-    position-visibility: always;
-    font-family: "Material Symbols Outlined";
-  }
-}
 
 main > ul:nth-of-type(2) > li {
   flex-shrink: 0;  
@@ -161,42 +138,48 @@ main > ul:nth-of-type(2)::-webkit-scrollbar {
 
 
 /* Tekst op afbeelding */
-main > ul:nth-of-type(2) > li a h2,
-main > ul:nth-of-type(2) > li a p {
+main > ul:nth-of-type(2) > li h4,
+main > ul:nth-of-type(2) > li p {
   position: absolute;
+
+  z-index: 10;
 
   left: 0;
   transform: none;
   text-align: left;
 
-  color: var(--white-color);
   margin: 0px 10px 5px 10px;  
 }
 
 
-main > ul:nth-of-type(2) > li a h2 {
+main > ul:nth-of-type(2) > li h4 {
   bottom: 3.5em;
   font-size: 1.5em;
 }
 
 
-main > ul:nth-of-type(2) > li a p:first-of-type {
+main > ul:nth-of-type(2) > li p:first-of-type {
   bottom: 2em;
 }
 
-main > ul:nth-of-type(2) > li a p:last-of-type {
+main > ul:nth-of-type(2) > li p:last-of-type {
   bottom: 0.5em; 
 }
 
 main > menu {
   display: flex;
+  gap: .5em;
+  padding-left: 10px;
 }
 
-hr {
-  margin-right: 10px;
-  border: none;
-  height: .6px;
-  background-color: var(--soft-color);
-
+main > menu > li {
+  list-style-type:"";
 }
 
+section p {
+  color: var(--subtext-color-light);
+}
+
+section p:hover{
+  color: var(--subtext-color-hover-primary);
+}

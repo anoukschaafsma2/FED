@@ -1,130 +1,50 @@
 # Procesverslag
 
-## Introductie
-
 Procesverslag van Anouk Schaafsma, start-niveau: blauw en mijn focus: responsive.
+
+## Informatie
 
 Mijn gekozen website is Paradiso, ik heb deze website gekozen omdat ik het een mooi ontwerp vind en graag wilde leren hoe ik deze na kon maken. Op een beginners niveau. Hieronder zijn de afbeeldingen van de pagina's die ik heb nagemaakt.
 
-<img src="readme-images/homescreen.png" alt="Homepagina website Paradiso met hun opkomende programma in een carousel, hun programma voor vandaag en opkomend programma in een lijst">
+<img src="readme-images/fedhome.png" width="375px" alt="Homepagina website Paradiso met hun opkomende programma en programma van de dag zelf">
 
-<img src="readme-images/fedarchief.png" alt="Pagina met alle evenementen die bij Paradiso zich hebben plaatsgevonden"> 
+<img src="readme-images/fedarchief.png" width="375px" alt="Archief pagina van Paradiso met alle evenementen die hebben plaats gevonden in Paradiso sinds zij open zijn"> 
 
-Link naar de website van Paradiso: https://www.paradiso.nl/ 
-
-## Breakdownschetsen
-
-Voor de breakdownschetsen heb ik mijn gekozen pagina's uitgewerkt, de homepagina en de archief pagina.
-
-<img src="readme-images/homepagina.png" width="375px" alt="Homepagina van de Paradiso website">
-
-<img src="readme-images/fedarchief.png" width="375px" alt="Archief pagina van de Paradiso website"> 
-
-
-
-## Toegankelijkheidstest
-
-Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validater. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
-
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-## Jij
-
-<details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
-
-  ### Auteur:
-  Anouk Schaafsma
-
-  #### Je startniveau:
-  hier je startniveau: Blauw
-
-  #### Je focus:
-  hier je focus: Responsive
- 
-</details>
-
-
-
-
-
-## Je website
-
-<details open>
-  <summary>Ik heb de website van Paradiso gekozen om na te maken voor de eindopdracht.</summary>
-
-<img src="readme-images/homescreen.png" alt="Homepagina website Paradiso">
-
-<img src="readme-images/about.png" alt="About pagina van paradiso"> 
-
-  ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-  https://www.paradiso.nl/ 
-
-  #### Screenshot(s) van de eerste pagina (small screen): 
-Homepagina van de website
-<img src="readme-images/homepagina.png" width="375px" alt="Homepagina website Paradiso">
-
-  #### Screenshot(s) van de tweede pagina (small screen):
-Archief pagina van de website
-<img src="readme-images/fedarchief.png" width="375px" alt="Archief van het programma van Paradiso"> 
-
- 
-</details>
-
-
+Hier de link naar de website: https://www.paradiso.nl/  
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validater. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
-
-</details>
+### Bevindingen
+Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validator. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
 
 
+## Breakdownschetsen
 
-## Breakdownschets (week 1)
+Voor de breakdownschetsen heb ik gekeken naar de volledige pagina's, het menu en verschillende de carousels.
 
-<details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  ### Homepagina: 
+  <img src="readme-images/breakdown-homescreen.png" width="375px" alt="breakdown van de hele home pagina">
 
-  ### de hele pagina: 
-  <img src="readme-images/homescreen.png" width="375px" alt="breakdown van de hele home pagina">
+  ### Menu: 
+  <img src="readme-images/breakdown-menu.png" width="375px" alt="breakdown van het hamburgermenu uitgeklapt">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/menu.png" width="375px" alt="breakdown van het hamburgermenu uitgeklapt">
+  ### Carousel 1 met opkomend programma: 
+  <img src="readme-images/breakdown-carousel.png" width="375px" alt="breakdown van een carousel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/program.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### Carousel 2 met opkomend programma voor dag zelf: 
+  <img src="readme-images/breakdown-slideshow.png" width="375px" alt="breakdown van een carousel">
 
-</details>
-
-
-
+  ### Opkomend programma in een lijst: 
+  <img src="readme-images/breakdown-program.png" width="375px" alt="breakdown van een carousel">
 
 
 ## Voortgang 1 (week 2)
 
-<details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik heb niet vastgelegd wat ik hier had maar het was een redelijke basis. Sommige dingen heb ik mee kunnen nemen van vorig jaar. 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
   | Daphne         | Leon               | Tobias       | Anouk            |
   | ---            | ---                | ---          | ---              |
@@ -134,30 +54,21 @@ Archief pagina van de website
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
-
-
+  - alle divs eruit halen, net als de classes en articles (tenzij je een goede reden hebt om ze te gerbuiken)
+  - voor de carousel de link op de h2 zetten
+  - bij alle images een alt text gebruiken
 
 
 ## Voortgang 2 (week 3)
 
-<details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik had hier niet genoeg progres gemaakt met mijn css. Het gesprek was alsnog nuttig omdat iemand al was begonnen met een light-dark mode. Ik ben hierna er ook mee begonnen. 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+
 
   | Daphne         | Leon               | student 3   
   | ---            | ---                | ---         
@@ -170,64 +81,59 @@ Archief pagina van de website
                       opstellen in style 
                       sheet zonder classes 
                       en heel veel 
-                      uitzonderingen maken.    
+                      uitzonderingen maken.  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
-</details>
-
-
+  - meer proces maken, css vooruitgang was te weinig
+  - kijken of ik 1 nav tag ga gebruiken met veel ul, of meerdere
+  nav tags ga gebruiken
+  - meerdere css bestanden gebruiken
+  - ik kan in de css :root gebruik maken van primitives (standaard kleuren) en die vervolgens gebruiken als font kleur of achtergrond kleur
+  - darkmode kan met @media (prefers-color-scheme:dark)
+ 
 
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
-</details>
-
-
+  - ik probeer zo min mogelijk divs te gebruiken
+  - ik heb de kleuren en fonts in primitives gezet en die bij andere tags aangewezen.
+  - h tags op een logische manier gebruikt, werd eerst niet gedaan
+  - ol/ul items gebruikt voor lijsten.
 
 
 
 ## Voortgang 3 (week 4)
 
-<details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Mijn voortgang was redelijk, kon zeker beter.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Chiara:         
+  mov exporteren van de site en in code zetten, carrousel (met mov's)
 
+  Leon:
+  Het maken van een hamburger menu. (Kan ik daar uitkomen door de les terug te kijken van java script? sinds ik die gemist heb), feedback op goed responsive maken van de website.
+
+  Tobias:
+  Carousel verbeteren,hamburger menu is wederom gebroken, nog een probleem met de nav bar
+
+  Daphne:
+  Weer probleem met github, moet ik bepaalde filmpjes toevoegen of is thumbnail genoeg en hoe krijg ik de scrollbar weg en de puntjes omhoog
+
+  Anouk:
+  Hoe ik mijn lege <a> tags een transitie kan geven en ook hoe ik een carousel met filmpjes maak.
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
+  Ik weet eigenlijk niet meer zo goed wat eruit kwam. Maar het was wel nuttig.
 
 
 
@@ -235,8 +141,19 @@ Archief pagina van de website
 
 ## Eindgesprek (week 5)
 
-<details>
-  <summary>uitwerken voor eindgesprek</summary>
+Ik vond dit vak soms leuk, als het lukte. Maar coderen is iets waar je echt je tijd voor moet nemen en ik houd daar niet zo van. Ik heb liever dat het snel af is. Ik heb het vak ook vaak voor mij uitgeschoven wat mij achteraf alleen maar ellende heeft opgeleverd maar ik vind dat het uiteindelijk een goed eindresultaat is geworden. Ik weet niet of ik in de toekomst nog veel ga coderen maar ik heb nu een betere basis dan vorig schooljaar.
+
+Ik heb meer geleerd over responsive design. En snap nu ietsje beter hoe min-width werkt. Ook heb ik geleerd dat je best makkelijk een dark mode kan toevoegen aan je website. 
+
+plaatjes toevoegen van:
+- "eind" resultaat vorig jaar 
+- home pagina
+- archief pagina
+- menu 
+- dark mode
+
+link van vorig jaar
+https://anoukschaafsma2.github.io/FED-her-j2/index.html
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
@@ -252,13 +169,26 @@ Archief pagina van de website
   Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
-
-
 
 
 
 ## Bronnenlijst
+
+Ik heb een aantal bronnen gebruikt om beter te kunnen begrijpen wat ik wilde doen op het gebied van flexbox en grid. Hiervoor heb ik de volgende websites gebruikt:
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://www.cssgridplayground.com/?utm_source=chatgpt.com
+
+Ik heb tijdens het coderen ook wel eens chat gpt gebruikt. Dit was grotendeels voor het doorlezen van mijn code om te kijken of ik ergens overheen keek. 
+
+Voor het maken van de carousels heb ik de volgende website gebruikt:
+
+https://chrome.dev/carousel-configurator/
+
+Ook heb ik een aantal h2 gebruikt om de hierarchie goed te laten lopen. Deze h2 hebben de class: visually-hidden. Hiervoor heb ik de volgende link gebruikt:
+
+https://www.a11yproject.com/posts/how-to-hide-content/
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
@@ -267,8 +197,8 @@ Archief pagina van de website
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-  2. https://chrome.dev/carousel-configurator/
-     
+  1. bron 1
+  2. bron 2
+  3. ...
 
 </details>
