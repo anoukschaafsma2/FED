@@ -1,190 +1,185 @@
 /* algemene styling */
-ul a li {
+ul li a{
   position: relative;
   overflow: hidden;
 }
 
-/* BODY */
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--background-color-primary);
+  color: var(--text-color-primary);
+}
 
+main > h2 {
+  letter-spacing: -7px;
+  font-size: 7.3em;
+}
+
+@media (min-width: 630px) {
+  h1, h2 {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* HEADER */
 header p{
-  color: var(--soft-color);
+  color: var(--subtext-color-light);
 }
 
-header a  {
+header > p > a  {
   text-decoration: underline;
-  color: var(--white-color);
+  color: var(--text-color-primary);
 }
+
+header > nav:nth-of-type(2) a{
+  color: var(--text-color-primary);
+}
+
+header button span {
+  background-color: var(--white-color);
+}
+
 
 /* MAIN */
-
-/* img {
-  max-width: 390px;
-  width: calc(100% - 4em); 
-  box-sizing: border-box;
-} */
-
-/* BAH */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .img {
-    order: 1;
-    flex-direction: column;
+    order: 0;         
+    flex-direction: column;   
   }
 }
 
 /* --- CAROUSEL CONTAINER --- */
+/* bron https://chrome.dev/carousel-configurator/ */
 main > ul:nth-of-type(1) {
   display: flex;
 
-
-  overflow-x: auto;                 /* horizontaal scrollen AAN */
-  scroll-snap-type: x mandatory;    /* elke slide 'snapt' in positie */
-  scroll-behavior: smooth;          /* soepel scrollen */
-
-  padding-inline: 2em;
+  position: relative;
+  overflow-x: auto;                   /*  horizontaal scrollen AAN  */
+  scroll-snap-type: x mandatory;     /*  elke slide 'snapt' in positie  */
+  scroll-behavior: smooth;          /*   soepel scrollen  */
 
   gap: 0;                   
   margin: 0;
-  padding: 0;               
+  padding: 0;   
 
-  width: 100vh;
-
+  /* anchor positioning  */
+  anchor-name: --carousel;
 }
 
+
+
 main > ul:nth-of-type(1) > li {
-  flex: 0 0 100%;     /* Elke slide = 100% van de viewportbreedte */
-  scroll-snap-align: start;
-  position: relative;
+  flex-shrink: 0;  
+  scroll-snap-align: center;
 }
 
 main > ul:nth-of-type(1)::-webkit-scrollbar {
   display: none;                    /* scrollbar verbergen (Chrome/Safari) */
 }
 
-/* --- CAROUSEL ITEMS --- */
-main > ul:nth-of-type(1) > li:not(:has(button)) {
-  flex: 0 0 100%;                   /* elke slide neemt 100% breedte */
-  scroll-snap-align: center;        /* slide centreert bij stoppen */
-  position: relative;
-
-  overflow: hidden;
-}
-
-/* --- AFBEELDING + OVERLAY --- */
-main > ul:nth-of-type(1) > li {
-  background: linear-gradient(30%);
-}
-
-main > ul:nth-of-type(1) > li a {
-  display: block;
-  position: relative;
-  text-decoration: none;
-  color: inherit;
-}
-
-main > ul:nth-of-type(1) > li a img {
-  width: 50vh;
-  height: 60vh;
-  object-fit: cover;
-  display: block;
-}
 
 /* Tekst op afbeelding */
-main > ul:nth-of-type(1) > li a h2,
-main > ul:nth-of-type(1) > li a p {
+main > ul:nth-of-type(1) > li h3,
+main > ul:nth-of-type(1) > li p {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: var(--white-color);
-  margin: 0;
+
+  z-index: 10;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
+  /* color: var(--text-color-primary); */
+  margin: 0px 10px 5px 10px;  
 }
 
 
-main > ul:nth-of-type(1) > li a h2 {
+main > ul:nth-of-type(1) > li h3 {
+  bottom: 2.5em;
+  font-size: 1.5em;
+}
+
+
+main > ul:nth-of-type(1) > li p:first-of-type {
+  bottom: 2em;
+}
+
+main > ul:nth-of-type(1) > li p:last-of-type {
+  bottom: 0.5em; 
+}
+
+/* tweede carousel */
+
+main > ul:nth-of-type(2) {
+  display: flex;
+
+  overflow-x: auto;                 /*  horizontaal scrollen AAN*/
+  scroll-snap-type: x mandatory;    /*  elke slide 'snapt' in positie */
+  scroll-behavior: smooth;         /*  soepel scrollen  */
+
+  gap: .5em;                   
+
+  padding-left: 10px;
+
+  /* anchor positiong */
+   anchor-name: --carousel;
+}
+
+
+main > ul:nth-of-type(2) > li {
+  flex-shrink: 0;  
+  scroll-snap-align: center;
+}
+
+main > ul:nth-of-type(2)::-webkit-scrollbar {
+  display: none;      /* scrollbar verbergen (Chrome/Safari)  */
+}
+
+
+/* Tekst op afbeelding */
+main > ul:nth-of-type(2) > li h4,
+main > ul:nth-of-type(2) > li p {
+  position: absolute;
+
+  z-index: 10;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
+  margin: 0px 10px 5px 10px;  
+}
+
+
+main > ul:nth-of-type(2) > li h4 {
   bottom: 3.5em;
   font-size: 1.5em;
 }
 
 
-main > ul:nth-of-type(1) > li a p:first-of-type {
+main > ul:nth-of-type(2) > li p:first-of-type {
   bottom: 2em;
 }
 
-main > ul:nth-of-type(1) > li a p:last-of-type {
-  bottom: 0.5em;
+main > ul:nth-of-type(2) > li p:last-of-type {
+  bottom: 0.5em; 
 }
 
-/* --- PIJLEN --- */
-main > ul:nth-of-type(1) > li:has(button) {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
+main > menu {
+  display: flex;
+  gap: .5em;
+  padding-left: 10px;
 }
 
-main > ul:nth-of-type(1) > li:first-child {
-  left: 1em;
+main > menu > li {
+  list-style-type:"";
 }
 
-main > ul:nth-of-type(1) > li:last-child {
-  right: 1em;
+section p {
+  color: var(--subtext-color-light);
 }
 
-main > ul:nth-of-type(1) > li:has(button) > button {
-  background-color: var(--white-color);
-  border: none;
-  border-radius: 50%;
-  width: 3em;
-  height: 3em;
-  font-size: 1.2em;
-  color: var(--black-color);
-  cursor: pointer;
-  box-shadow: 0 0 6px var(--black-color)
-  transition: background 0.2s ease;
+section p:hover{
+  color: var(--subtext-color-hover-primary);
 }
-
-main > ul:nth-of-type(1) > li:has(button) > button:hover {
-  background-color: var(--black-color);
-  color: var(--white-color);
-}
-
-main > ul:nth-of-type(1) > li:has(button) > button:focus{
-  border-color: var(--focus-state:);
-}
-
-
-main ul:nth-of-type(2) a li h3,
-main ul:nth-of-type(2) a li p {
-  position: absolute;
-  left: 0;
-  right: 0;
-  color: white;
-  text-align: center;
-  z-index: 2;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-
-}
-
-main ul:nth-of-type(2) a li h3,
-main ul:nth-of-type(2) a li p::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 1;
-}
-
-main ul:nth-of-type(2) a li h3,
-main ul:nth-of-type(2) a li p::after {
-  top: 50%;
-  transform: translateY(-50%);
-}
-  

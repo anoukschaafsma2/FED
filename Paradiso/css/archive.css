@@ -1,23 +1,144 @@
-@font-face {
-  font-family: Paradiso;
-  src: url(../font/139b8a6406b1b53a-s.p.woff2);
-}
-
-
-
 body {
-    background-color: var(--white-color);
-    color: var(--black-color);
+    background-color: var(--background-color-secundary);
+    color: var(--text-color-secundary);
     font-family: var(--font-family);
   }
 
-  main > ul  {
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    anchor-name: --carousel;
-  
-    > .carousel__slide {
-      scroll-snap-align: center;
-    }
+header button span {
+    background-color: var(--button-open);
   }
+
+h2 {
+    display: flex;
+    justify-content: start;
+  }
+
+h2 {
+  font-size: 2em;
+  }
+
+
+main { 
+  padding: 10px; 
+}
+
+
+main a {
+    color: var(--text-color-secundary);
+    position: relative; 
+  }
+  
+
+main p > a::after{  
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;                   
+  width: 0%;
+  height: 2px;                
+  background-color: var(--text-line-hover);          
+  transition: width 0.3s ease;     
+} 
+
+
+main p > a:hover::after,
+main p > a:hover::after 
+ {
+   width: 100%;
+}
+
+main ul li > h3{
+color: var(--text-color-primary);
+}
+
+/* --- CAROUSEL CONTAINER --- */
+/* bron https://chrome.dev/carousel-configurator/ */
+main > ul:nth-of-type(1) {
+  display: flex;
+
+  position: relative;
+  overflow-x: auto;                   /*  horizontaal scrollen AAN  */
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;     /*  elke slide 'snapt' in positie  */
+  scroll-behavior: smooth;          /*   soepel scrollen  */
+
+  gap: .5em;                   
+  margin: 0;
+  padding: 0;   
+
+  /* anchor positioning  */
+  anchor-name: --carousel;
+}
+
+
+main > ul:nth-of-type(1) > li {
+  flex-shrink: 0;  
+  scroll-snap-align: center;
+}
+
+main > ul:nth-of-type(1)::-webkit-scrollbar {
+  display: none;                    /* scrollbar verbergen (Chrome/Safari) */
+}
+
+
+/* Tekst op afbeelding */
+main > ul:nth-of-type(1) > li h3,
+main > ul:nth-of-type(1) > li p {
+  position: absolute;
+
+  z-index: 10;
+
+  left: 0;
+  transform: none;
+  text-align: left;
+
+  margin: 0px 10px 5px 10px;  
+}
+
+
+main > ul:nth-of-type(1) > li h3 {
+  bottom: 2.5em;
+  font-size: 1.5em;
+}
+
+main > ul:nth-of-type(1) > li p {
+  color: var(--subtext-color);
+}
+
+main > ul:nth-of-type(1) > li p:first-of-type {
+  bottom: 2em;
+}
+
+main > ul:nth-of-type(1) > li p:last-of-type {
+  bottom: 0.5em; 
+}
+
+main > ul:nth-of-type(1) > li {
+  position: relative;
+  display: block;
+}
+
+
+/* gebruiken voor border? geen idee wat dit doet lol, maar niet veel */
+section p {
+  color: var(--subtext-color);
+}
+
+main > section > ul > li:last-of-type{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+  }
+
+
+
+footer {
+  display: flex;
+  gap: 1em;
+}
+
+@media (min-width: 500px) {
+  footer { 
+  display: grid; 
+}
+}
