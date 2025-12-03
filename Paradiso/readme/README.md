@@ -8,168 +8,171 @@ Mijn gekozen website is Paradiso, ik heb deze website gekozen omdat ik het een m
 
 <img src="readme-images/fedhome.png" width="375px" alt="Homepagina website Paradiso met hun opkomende programma en programma van de dag zelf">
 
-<img src="readme-images/fedarchief.png" width="375px" alt="Archief pagina van Paradiso met alle evenementen die hebben plaats gevonden in Paradiso sinds zij open zijn"> 
+<img src="readme-images/fedarchief.png" width="375px" alt="Archief pagina van Paradiso met alle evenementen die hebben plaats gevonden in Paradiso sinds zij open zijn">
 
-Hier de link naar de website: https://www.paradiso.nl/  
+Hier de link naar de website: https://www.paradiso.nl/
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
 ### Bevindingen
-Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validator. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
 
+Wat opviel aan de website van Paradiso is dat de code erg slordig is. Er komen veel foutmeldingen uit de validator. Je kan niet makkelijk met tap door de website heen omdat zij geen nette code hebben geschreven. Er wordt veel gebruik gemaakt van div en dit maakt het voor de screenreader ook een stuk moeilijker om er doorheen te gaan. Als je met tab door de website heen gaat is dat ook nauwelijks te zien omdat het blauw is en de eerste pagina van de website rood is. Op mobiel zijn de titels van de pagina's niet volledig zichtbaar, misschien is dit de bedoeling maar dat weet ik niet.
 
 ## Breakdownschetsen
 
 Voor de breakdownschetsen heb ik gekeken naar de volledige pagina's, het menu en verschillende de carousels.
 
-  ### Homepagina: 
+### Homepagina:
+
   <img src="readme-images/breakdown-homescreen.png" width="375px" alt="breakdown van de hele home pagina">
 
-  ### Menu: 
+### Menu:
+
   <img src="readme-images/breakdown-menu.png" width="375px" alt="breakdown van het hamburgermenu uitgeklapt">
 
-  ### Carousel 1 met opkomend programma: 
+### Carousel 1 met opkomend programma:
+
   <img src="readme-images/breakdown-carousel.png" width="375px" alt="breakdown van een carousel">
 
-  ### Carousel 2 met opkomend programma voor dag zelf: 
+### Carousel 2 met opkomend programma voor dag zelf:
+
   <img src="readme-images/breakdown-slideshow.png" width="375px" alt="breakdown van een carousel">
 
-  ### Opkomend programma in een lijst: 
-  <img src="readme-images/breakdown-program.png" width="375px" alt="breakdown van een carousel">
+### Opkomend programma in een lijst:
 
+  <img src="readme-images/breakdown-program.png" width="375px" alt="breakdown van een carousel">
 
 ## Voortgang 1 (week 2)
 
+### Stand van zaken
 
-  ### Stand van zaken
-  Ik heb niet vastgelegd wat ik hier had maar het was een redelijke basis. Sommige dingen heb ik mee kunnen nemen van vorig jaar. 
+Ik heb niet vastgelegd wat ik hier had maar het was een redelijke basis. Sommige dingen heb ik mee kunnen nemen van vorig jaar.
 
-  ### Agenda voor meeting
+### Agenda voor meeting
 
-  | Daphne         | Leon               | Tobias       | Anouk            |
-  | ---            | ---                | ---          | ---              |
-  | foto's         | forms uitwerken    | hover effect | font inladen     |
-  | font downloaden| navigatie bar      | in een UL    | carousel maken   |
-  | ...            | ...                | ...          | ...              |
+#### Daphne
+Foto's en font downloaden
 
+#### Leon:
+Forms uitwerken en navigatiebar
 
-  ### Verslag van meeting
+#### Tobias:
+Hover effect in een ul
 
-  - alle divs eruit halen, net als de classes en articles (tenzij je een goede reden hebt om ze te gerbuiken)
-  - voor de carousel de link op de h2 zetten
-  - bij alle images een alt text gebruiken
+#### Anouk:
+Font inladen en carousel maken
 
+### Verslag van meeting
+- alle divs eruit halen, net als de classes en articles (tenzij je een goede reden hebt om ze te gerbuiken)
+- voor de carousel de link op de h2 zetten
+- bij alle images een alt text gebruiken
 
 ## Voortgang 2 (week 3)
 
+### Stand van zaken
 
-  ### Stand van zaken
-  Ik had hier niet genoeg progres gemaakt met mijn css. Het gesprek was alsnog nuttig omdat iemand al was begonnen met een light-dark mode. Ik ben hierna er ook mee begonnen. 
+Ik had hier niet genoeg progres gemaakt met mijn css. Het gesprek was alsnog nuttig omdat iemand al was begonnen met een light-dark mode. Ik ben hierna er ook mee begonnen.
 
+### Agenda voor meeting
 
-  ### Agenda voor meeting
+#### Chiara:
+Mov exporteren van de site en in code zetten
+carrousel (met mov's)
 
+#### Leon:
+Het maken van een hamburger menu. (Kan ik daar uitkomen door de les terug te kijken van java script? sinds ik die gemist heb) Feedback op goed responsive maken van de website.
 
-  | Daphne         | Leon               | student 3   
-  | ---            | ---                | ---         
-  | carousel fixen | Hoe werk ik met    | carousel werkend   
-  | werken met     | een SVG Logo.      | menu verbergen in hambuger menu
-  | bepaalde foto’s| verschillende 
-    waar text op staat styling voor
-                      headers en andere 
-                      elementen, hoe 
-                      opstellen in style 
-                      sheet zonder classes 
-                      en heel veel 
-                      uitzonderingen maken.  
+#### Tobias:
+Carousel verbeteren, hamburger menu is wederom gebroken, nog een probleem met de nav bar
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+#### Daphne:
+Weer probleem met github, moet ik bepaalde filmpjes toevoegen of is thumbnail genoeg
+en hoe krijg ik de scrollbar weg en de puntjes omhoog
 
-  - meer proces maken, css vooruitgang was te weinig
-  - kijken of ik 1 nav tag ga gebruiken met veel ul, of meerdere
+### Verslag van meeting
+
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- meer proces maken, css vooruitgang was te weinig
+- kijken of ik 1 nav tag ga gebruiken met veel ul, of meerdere
   nav tags ga gebruiken
-  - meerdere css bestanden gebruiken
-  - ik kan in de css :root gebruik maken van primitives (standaard kleuren) en die vervolgens gebruiken als font kleur of achtergrond kleur
-  - darkmode kan met @media (prefers-color-scheme:dark)
- 
-
-
+- meerdere css bestanden gebruiken
+- ik kan in de css :root gebruik maken van primitives (standaard kleuren) en die vervolgens gebruiken als font kleur of achtergrond kleur
+- darkmode kan met @media (prefers-color-scheme:dark)
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-  - ik probeer zo min mogelijk divs te gebruiken
-  - ik heb de kleuren en fonts in primitives gezet en die bij andere tags aangewezen.
-  - h tags op een logische manier gebruikt, werd eerst niet gedaan
-  - ol/ul items gebruikt voor lijsten.
+### Bevindingen
 
+Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+- ik probeer zo min mogelijk divs te gebruiken
+- ik heb de kleuren en fonts in primitives gezet en die bij andere tags aangewezen.
+- h tags op een logische manier gebruikt, werd eerst niet gedaan
+- ol/ul items gebruikt voor lijsten.
 
 ## Voortgang 3 (week 4)
 
+### Stand van zaken
 
-  ### Stand van zaken
-  Mijn voortgang was redelijk, kon zeker beter.
+Mijn voortgang was redelijk, kon zeker beter.
 
+### Agenda voor meeting
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+samen met je groepje opstellen
 
-  Chiara:         
-  mov exporteren van de site en in code zetten, carrousel (met mov's)
+#### Chiara:  
+ mov exporteren van de site en in code zetten, carrousel (met mov's)
 
-  Leon:
-  Het maken van een hamburger menu. (Kan ik daar uitkomen door de les terug te kijken van java script? sinds ik die gemist heb), feedback op goed responsive maken van de website.
+#### Leon:
+Het maken van een hamburger menu. (Kan ik daar uitkomen door de les terug te kijken van java script? sinds ik die gemist heb), feedback op goed responsive maken van de website.
 
-  Tobias:
-  Carousel verbeteren,hamburger menu is wederom gebroken, nog een probleem met de nav bar
+#### Tobias:
+Carousel verbeteren,hamburger menu is wederom gebroken, nog een probleem met de nav bar
 
-  Daphne:
-  Weer probleem met github, moet ik bepaalde filmpjes toevoegen of is thumbnail genoeg en hoe krijg ik de scrollbar weg en de puntjes omhoog
+#### Daphne:
+Weer probleem met github, moet ik bepaalde filmpjes toevoegen of is thumbnail genoeg en hoe krijg ik de scrollbar weg en de puntjes omhoog
 
-  Anouk:
-  Hoe ik mijn lege <a> tags een transitie kan geven en ook hoe ik een carousel met filmpjes maak.
-
-  ### Verslag van meeting
-  Ik weet eigenlijk niet meer zo goed wat eruit kwam. Maar het was wel nuttig.
+#### Anouk:
+Hoe ik mijn lege <a> tags een transitie kan geven en ook hoe ik een carousel met filmpjes maak.
 
 
+### Verslag van meeting
 
-
+Ik weet eigenlijk niet meer zo goed wat eruit kwam. Maar het was wel nuttig.
 
 ## Eindgesprek (week 5)
 
 Ik vond dit vak soms leuk, als het lukte. Maar coderen is iets waar je echt je tijd voor moet nemen en ik houd daar niet zo van. Ik heb liever dat het snel af is. Ik heb het vak ook vaak voor mij uitgeschoven wat mij achteraf alleen maar ellende heeft opgeleverd maar ik vind dat het uiteindelijk een goed eindresultaat is geworden. Ik weet niet of ik in de toekomst nog veel ga coderen maar ik heb nu een betere basis dan vorig schooljaar.
 
-Ik heb meer geleerd over responsive design. En snap nu ietsje beter hoe min-width werkt. Ook heb ik geleerd dat je best makkelijk een dark mode kan toevoegen aan je website. 
+Ik heb meer geleerd over responsive design. En snap nu ietsje beter hoe min-width werkt. Ook heb ik geleerd dat je best makkelijk een dark mode kan toevoegen aan je website.
 
-plaatjes toevoegen van:
-- "eind" resultaat vorig jaar 
-- home pagina
-- archief pagina
-- menu 
-- dark mode
+Ook heb ik meer geleerd over css grid. Ik vind het nog steeds wel een beetje lastig, maar wat ik wilde voor mijn ontwerp is gelukt dus daar ben ik trots op.
+
+Hieronder afbeeldingen om mijn verhaal te onderbouwen:
+
+## Header, de h1 en de eerste carousel:
+<img src="readme-images/small-home-top.png" width="375px" alt="Afbeelding van carousel en een header op een klein scherm">
+
+<img src="readme-images/big-home-top.png" width="375px" alt="Afbeelding van carousel en een header op een groot scherm">
+
+## Programma van de dag zelf en carousel:
+<img src="readme-images/small-home-mid.png" width="375px" alt="Afbeelding van carousel en een header op een klein scherm">
+
+<img src="readme-images/big-home-mid.png" width="375px" alt="Afbeelding van carousel en een header op een groot scherm">
+
+## Programma van de dag zelf en carousel:
+<img src="readme-images/small-home-bottom.png" width="375px" alt="Afbeelding van een lijst met opkomend programma op een klein scherm">
+
+<img src="readme-images/big-home-bottom.png" width="375px" alt="Afbeelding van een lijst met opkomend programma op een groot scherm">
+
+## Darkmode homescreen:
+<img src="readme-images/small-dark-top.png" width="375px" alt="Afbeelding van de darkmode van de homepagina een klein scherm">
+
+<img src="readme-images/big-dark-bottom.png" width="375px" alt="Afbeelding van de darkmode van de homepagina een klein scherm">
 
 link van vorig jaar
 https://anoukschaafsma2.github.io/FED-her-j2/index.html
-
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
-
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-
 
 
 ## Bronnenlijst
@@ -180,7 +183,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://css-tricks.com/snippets/css/complete-guide-grid/
 https://www.cssgridplayground.com/?utm_source=chatgpt.com
 
-Ik heb tijdens het coderen ook wel eens chat gpt gebruikt. Dit was grotendeels voor het doorlezen van mijn code om te kijken of ik ergens overheen keek. 
+Ik heb tijdens het coderen ook wel eens chat gpt gebruikt. Dit was grotendeels voor het doorlezen van mijn code om te kijken of ik ergens overheen keek.
 
 Voor het maken van de carousels heb ik de volgende website gebruikt:
 
@@ -190,15 +193,3 @@ Ook heb ik een aantal h2 gebruikt om de hierarchie goed te laten lopen. Deze h2 
 
 https://www.a11yproject.com/posts/how-to-hide-content/
 
-<details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
-</details>

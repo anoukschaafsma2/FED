@@ -79,7 +79,8 @@
   --button-open: var(--black-color);
 
   /* lines */
-  --line-color: var(--gray-color);
+  --line-color-light: var(--gray-color);
+  --line-color-dark: var(--dark-gray-color);
   --line-color-hover: var(--white-color);
 }
 
@@ -120,7 +121,8 @@
   --button-open: var(--white-color);
 
   /* lines */
-  --line-color: var(--dark-gray-color);
+  --line-color-light: var(--dark-gray-color);
+  --line-color-dark: var(--dark-gray-color);
   --line-color-hover: var(--white-color);
   }
 }
@@ -543,26 +545,21 @@ main > ul > li a img {
   display: block;
 }
 
- 
-  
+
+  /* section styling */
 main > section > ul:nth-child(2){
   gap: 2em;
 }
 
-main > section > ul:nth-child(2) > li,
-main > section > ul:nth-child(3) > li {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 1rem;
-
-}
-
-main > section > ul:nth-child(2) > li > p,
-main > section > ul:nth-child(3) > li > p {
+main > section > ul:nth-child(2) > li > p:nth-of-type(2),
+main > section > ul:nth-child(3) > li > p:nth-of-type(2) {
   margin-top: .5px;
   margin-bottom: 10px;
 }
 
+main > section > ul:nth-child(3) > li > p:first-of-type{
+  margin-top: 20px;
+}
 
 @media (max-width: 1000px) {
   main > section {

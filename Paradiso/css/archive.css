@@ -124,21 +124,24 @@ section p {
   color: var(--subtext-color);
 }
 
-main > section > ul > li:last-of-type{
+section p:hover{
+  color: var(--subtext-color-hover-secundary);
+}
+
+/* section styling */
+main > section > ul > li {
   display: grid;
-  gap: 10px;
-  grid-template-columns: 2fr 1fr;
-  }
-
-
-
-footer {
-  display: flex;
-  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  border-bottom: 1px solid var(--line-color-dark);
 }
 
-@media (min-width: 500px) {
-  footer { 
-  display: grid; 
+main > section > ul > li > h4 {
+  grid-column: span 2;
 }
+
+main > section > ul > li > p {
+  grid-column: span 1;
+  text-align: end;
 }

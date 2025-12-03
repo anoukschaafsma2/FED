@@ -10,6 +10,7 @@ body {
   color: var(--text-color-primary);
 }
 
+
 main > h2 {
   letter-spacing: -7px;
   font-size: 7.3em;
@@ -176,10 +177,44 @@ main > menu > li {
   list-style-type:"";
 }
 
+/* section styling */
+main > section > ul > li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-bottom: 1px solid var(--line-color-light);
+}
+
+main > section > ul > li > h4 {
+  grid-column: 1 / span 3; 
+  grid-row: 1;             
+  margin-bottom: 0;
+}
+
+
+main > section > ul > li > p:nth-of-type(1) {
+  grid-column: 1 / span 3; 
+  grid-row: 2;         
+  margin-top: 0;    
+}
+
+
+main > section > ul > li > p:nth-of-type(2) {
+  grid-column: 4;       
+  grid-row: 1 / span 2;    
+  justify-self: end;      
+  align-self: center;
+}
+
 section p {
   color: var(--subtext-color-light);
 }
 
 section p:hover{
   color: var(--subtext-color-hover-primary);
+}
+
+section {
+  padding-left: 10px;
+  padding-right: 10px;
 }
