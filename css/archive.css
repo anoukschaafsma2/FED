@@ -119,7 +119,6 @@ main > ul:nth-of-type(1) > li {
 }
 
 
-/* gebruiken voor border? geen idee wat dit doet lol, maar niet veel */
 section p {
   color: var(--subtext-color);
 }

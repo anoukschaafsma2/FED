@@ -218,3 +218,13 @@ section {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+@media (min-width:1000px) {
+  section{
+    display: flex;
+  }
+
+  ul {
+    padding-left: 40px;
+  }
+}

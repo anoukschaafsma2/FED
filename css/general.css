@@ -243,8 +243,6 @@ header menu li > img {
 
 header button  {
   position:relative;
-  
-  /* hoger dan menu */
 
   appearance: none;
   font-size:1em;
@@ -330,8 +328,6 @@ nav:nth-of-type(1) {
 
 
   overflow-y: scroll;
-
-  /* color: var(--text-color-secundary); */
 }
 
 nav:nth-of-type(1).is-open {
@@ -546,13 +542,14 @@ main > ul > li a img {
 }
 
 
-  /* section styling */
-main > section > ul:nth-child(2){
+/* section styling */
+main > section > ul{
   gap: 2em;
+  padding-left: 0;
 }
 
-main > section > ul:nth-child(2) > li > p:nth-of-type(2),
-main > section > ul:nth-child(3) > li > p:nth-of-type(2) {
+
+main > section > ul > li > p:nth-of-type(2) {
   margin-top: .5px;
   margin-bottom: 10px;
 }
@@ -561,15 +558,14 @@ main > section > ul:nth-child(3) > li > p:first-of-type{
   margin-top: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
   main > section {
-    display: block;   
+    display: flex;   
     gap: 0;         
   }
 
-  main > section > ul:nth-child(2),
-  main > section > ul:nth-child(3) {
-    padding-left: 0;
+  main > section > ul {
+    padding-left: 40px;
     width: 100%;      
   }
 
