@@ -178,7 +178,7 @@ Ik heb een aantal bronnen gebruikt om beter te kunnen begrijpen wat ik wilde doe
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://css-tricks.com/snippets/css/complete-guide-grid/
-https://www.cssgridplayground.com/?utm_source=chatgpt.com
+https://www.cssgridplayground.com
 
 Ik heb tijdens het coderen ook wel eens chat gpt gebruikt. Dit was grotendeels voor het doorlezen van mijn code om te kijken of ik ergens overheen keek. 
 
