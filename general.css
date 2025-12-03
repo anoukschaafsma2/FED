@@ -243,8 +243,6 @@ header menu li > img {
 
 header button  {
   position:relative;
-  
-  /* hoger dan menu */
 
   appearance: none;
   font-size:1em;
@@ -330,8 +328,6 @@ nav:nth-of-type(1) {
 
 
   overflow-y: scroll;
-
-  /* color: var(--text-color-secundary); */
 }
 
 nav:nth-of-type(1).is-open {
@@ -546,7 +542,7 @@ main > ul > li a img {
 }
 
 
-  /* section styling */
+/* section styling */
 main > section > ul:nth-child(2){
   gap: 2em;
 }
