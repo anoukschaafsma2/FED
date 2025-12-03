@@ -169,7 +169,7 @@ Hieronder afbeeldingen om mijn verhaal te onderbouwen:
 ## Darkmode homescreen:
 <img src="readme-images/small-dark-top.png" width="375px" alt="Afbeelding van de darkmode van de homepagina een klein scherm">
 
-<img src="readme-images/big-dark-bottom.png" width="375px" alt="Afbeelding van de darkmode van de homepagina een klein scherm">
+<img src="readme-images/small-dark-bottom.png" width="375px" alt="Afbeelding van de darkmode van de homepagina een klein scherm">
 
 link van vorig jaar
 https://anoukschaafsma2.github.io/FED-her-j2/index.html
