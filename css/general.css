@@ -107,7 +107,7 @@
   --subtext-color: var(--dark-gray-color);
   --subtext-color-light: var(--dark-gray-color);
   --subtext-color-hover-primary: var(--white-color);
-  --subtext-color-hover-secundary: var(--dark-gray-color);
+  --subtext-color-hover-secundary: var(--white-color);
 
   /* buttons */
   --button-color: var(--dark-gray-color);
